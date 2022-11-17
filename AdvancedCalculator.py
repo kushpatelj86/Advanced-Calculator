@@ -2,7 +2,7 @@ do_u_want_specific_times =  input("Yes or No ,do you want a specfic number of ti
 stop_calclulation = False
 
 if do_u_want_specific_times == "Yes" or do_u_want_specific_times == "yes" or do_u_want_specific_times == "yEs"or do_u_want_specific_times == "yeS"or do_u_want_specific_times == "YEs"or do_u_want_specific_times == "yES"or do_u_want_specific_times == "YeS"or do_u_want_specific_times == "YES" or do_u_want_specific_times == " Yes" or do_u_want_specific_times == " yes" or do_u_want_specific_times == " yEs"or do_u_want_specific_times == "yeS"or do_u_want_specific_times == " YEs"or do_u_want_specific_times == " yES"or do_u_want_specific_times == " YeS"or do_u_want_specific_times == " YES" or do_u_want_specific_times == "Yes " or do_u_want_specific_times == "yes " or do_u_want_specific_times == "yEs "or do_u_want_specific_times == "yeS "or do_u_want_specific_times == "YEs "or do_u_want_specific_times == "yES "or do_u_want_specific_times == "YeS "or do_u_want_specific_times == "YES ":
-    how_many_times_do = int(input("How many times do you want to calcualte soemthing: "))
+    how_many_times_do = int(input("How many times do you want to calculate something: "))
     starting_num = float(input("Enter the starting number to calculate: "))
     sum = starting_num
     for i in range(0, how_many_times_do):
