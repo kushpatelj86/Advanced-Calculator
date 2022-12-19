@@ -41,28 +41,28 @@ elif do_u_want_specific_times == "No" or do_u_want_specific_times == "no"or do_u
 
         elif op == "-":
             sum = sum - num2
-            cont_counting = input("Do you want to continue adding: ")
+            cont_counting = input("Do you want to continue calculating: ")
             if cont_counting == "Yes" or cont_counting == "yes" or cont_counting == "YeS" or cont_counting == "YES" or cont_counting == "yES" or cont_counting == "yeS"or cont_counting == "YEs" or cont_counting == " Yes" or cont_counting == " yes" or cont_counting == " YeS" or cont_counting == " YES" or cont_counting == " yES" or cont_counting == " yeS"or cont_counting == " YEs" or cont_counting == "Yes " or cont_counting == "yes " or cont_counting == "YeS " or cont_counting == "YES " or cont_counting == "yES " or cont_counting == "yeS "or cont_counting == "YEs ":
                 start_count = True
             else:
                 start_count = False    
         elif op == "/":
             sum = sum / num2
-            cont_counting = input("Do you want to continue adding: ")
+            cont_counting = input("Do you want to continue calculating: ")
             if cont_counting == "Yes" or cont_counting == "yes" or cont_counting == "YeS" or cont_counting == "YES" or cont_counting == "yES" or cont_counting == "yeS"or cont_counting == "YEs" or cont_counting == " Yes" or cont_counting == " yes" or cont_counting == " YeS" or cont_counting == " YES" or cont_counting == " yES" or cont_counting == " yeS"or cont_counting == " YEs" or cont_counting == "Yes " or cont_counting == "yes " or cont_counting == "YeS " or cont_counting == "YES " or cont_counting == "yES " or cont_counting == "yeS "or cont_counting == "YEs ":
                 start_count = True
             else:
                 start_count = False    
         elif op == "*":
             sum = sum * num2
-            cont_counting = input("Do you want to continue adding: ")
+            cont_counting = input("Do you want to continue calculating: ")
             if cont_counting == "Yes" or cont_counting == "yes" or cont_counting == "YeS" or cont_counting == "YES" or cont_counting == "yES"or cont_counting == "yeS"or cont_counting == "YEs":
                 start_count = True
             else:
                 start_count = False    
         else:
             sum = sum + 0
-            cont_counting = input("Do you want to continue adding: ")
+            cont_counting = input("Do you want to continue calculating: ")
             if cont_counting == "Yes" or cont_counting == "yes" or cont_counting == "YeS" or cont_counting == "YES" or cont_counting == "yES" or cont_counting == "yeS"or cont_counting == "YEs" or cont_counting == " Yes" or cont_counting == " yes" or cont_counting == " YeS" or cont_counting == " YES" or cont_counting == " yES" or cont_counting == " yeS"or cont_counting == " YEs" or cont_counting == "Yes " or cont_counting == "yes " or cont_counting == "YeS " or cont_counting == "YES " or cont_counting == "yES " or cont_counting == "yeS "or cont_counting == "YEs ":
                 start_count = True
             else:
